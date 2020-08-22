@@ -1,9 +1,10 @@
 import React from 'react';
 import Section from '../section/section';
+import SectionNames from '../../universal/constants/sectionNames';
 
 const ProjectsSection = () => {
     return (
-        <Section />
+        <Section classNm={ SectionNames.PROJECTS } />
     )
 }
 

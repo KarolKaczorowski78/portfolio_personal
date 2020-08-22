@@ -10,26 +10,27 @@ const ViewNavigationButton = styled.button`
     justify-content: center;
     align-items: center;
     background: none;
-    border: 2px solid white;
+    border: 2px solid grey;
     & > span {
-        background: white;
+        background: grey;
         position: relative;
         width: 30px;
-        height: 3px;
-        border-radius: 10%;
+        height: 4px;
+        border-radius: 15%;
         ::before, ::after {
+            border-radius: inherit;
             position: absolute;
             width: 100%;
             height: 100%;
             left: 0;
-            background: white;
+            background: grey;
             content: '';
         }
         ::before {
-            bottom: 6px;
+            bottom: 7px;
         }
         ::after {
-            top: 6px;
+            top: 7px;
         }
     }
 `;

@@ -1,12 +1,18 @@
 import styled from 'styled-components';
 
-const Navigation = styled.nav`
+const Navigation = styled.nav<NavigationType>`
     position: fixed;
     top: 70px;
     right: 15px;
     width: 300px;
     height: 400px;
-    background: blue;
+    border: 2px solid grey;
+    text-align: center;
+    visibility: ${({ visible }) => visible ? 'visible' : 'hidden'};
 `;
+
+type NavigationType = {
+    visible: boolean,
+}
 
 export default Navigation;

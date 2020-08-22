@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-type SectionType = {
-    additionalStyle: string,
+interface StyledSectionProps {
+    additionalStyle: string;
 }
 
 const SectionStyled = styled.section`
@@ -9,8 +9,8 @@ const SectionStyled = styled.section`
     height: 100vh;
     max-width: 100%;
     box-sizing: border-box;
-    background: red;
-    border: 2px solid white;
+    background: ghostwhite;
+    border: 2px solid grey;
 `;
 
 export default SectionStyled;
