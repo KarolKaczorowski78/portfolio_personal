@@ -10,9 +10,10 @@ const ViewNavigationButton = styled.button`
     justify-content: center;
     align-items: center;
     background: none;
-    border: 2px solid grey;
+    border: none;
+    z-index: 3;
     & > span {
-        background: grey;
+        background: #66FCF1;
         position: relative;
         width: 30px;
         height: 4px;
@@ -23,14 +24,14 @@ const ViewNavigationButton = styled.button`
             width: 100%;
             height: 100%;
             left: 0;
-            background: grey;
+            background: #66FCF1;
             content: '';
         }
         ::before {
-            bottom: 7px;
+            bottom: 8px;
         }
         ::after {
-            top: 7px;
+            top: 8px;
         }
     }
 `;

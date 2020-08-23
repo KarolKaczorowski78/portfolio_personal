@@ -4,7 +4,7 @@ const NavButton = styled.button<NavButtonProps>`
     width: 300px;
     height: 80px;
     font: 1.8rem monospace;
-    color: grey;
+    color: #66FCF1;
     border: none;
     background: none;
     position: relative;
@@ -16,10 +16,11 @@ const NavButton = styled.button<NavButtonProps>`
         display: flex;
         justify-content: center;
         align-items: center;
-        ::after, ::before, svg {
-            transition: .25s ease-out;
+        ::after, ::before {
+            transition: .3s ease-out;
         }
         svg {
+            transition: .4s ease-out;
             opacity: 0;
         }
         ::after, ::before {

@@ -6,9 +6,11 @@ const Navigation = styled.nav<NavigationType>`
     right: 15px;
     width: 300px;
     height: 400px;
-    border: 2px solid grey;
+    border: 2px solid #66FCF1;
     text-align: center;
-    visibility: ${({ visible }) => visible ? 'visible' : 'hidden'};
+    z-index: 3;
+    background: #0B0C10;
+    display: ${({ visible }) => visible ? 'block' : 'none'};
 `;
 
 type NavigationType = {

@@ -9,8 +9,7 @@ const SectionStyled = styled.section`
     height: 100vh;
     max-width: 100%;
     box-sizing: border-box;
-    background: ghostwhite;
-    border: 2px solid grey;
+    background: #1F2833;
 `;
 
 export default SectionStyled;
