@@ -73,6 +73,8 @@ export const H3 = styled.h1`
 export const P = styled.p`
     color: white;
     font-size: 1.15rem;
+    max-width: 50ch;
+    display: block;
     span {
         color: #66FCF1;
     }

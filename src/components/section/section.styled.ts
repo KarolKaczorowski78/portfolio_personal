@@ -10,6 +10,8 @@ const SectionStyled = styled.section`
     max-width: 100%;
     box-sizing: border-box;
     background: #1F2833;
+    background: rgb(11, 12, 16);
+    border: 1px solid grey;
 `;
 
 export default SectionStyled;

@@ -43,6 +43,8 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.2"
+    "@types/styled-components": "^5.1.2",
+    "react-intersection-observer": "^8.27.1",
+    "react-palette": "^1.0.2"
   }
 }
