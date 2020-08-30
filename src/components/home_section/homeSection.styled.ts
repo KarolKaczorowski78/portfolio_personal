@@ -12,7 +12,7 @@ export const Shit = styled.div<ShitProps>`
     max-width: 100%;
     position: relative;
     height: 100vh;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -43,6 +43,7 @@ export const H1 = styled.span`
     color: #66FCF1;
     font-size: 4rem;
     font-family: Impact, Charcoal, sans-serif;
+    display: block;
 `;
 
 export const HomeNavButton = styled(H1)`

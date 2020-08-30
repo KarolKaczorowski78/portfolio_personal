@@ -19,7 +19,7 @@ const content: ReactNode =
             <P>Programming <span>is an art</span></P>
         </Shit>
         <Shit backgroundOpacity=".9">
-            <Principle>READY</Principle>
+            <Principle>RESPONSIBLE</Principle>
             <Principle>EASY GOING</Principle>
             <Principle>AMBICIOUS</Principle>
             <Principle>CREATIVITE</Principle>
