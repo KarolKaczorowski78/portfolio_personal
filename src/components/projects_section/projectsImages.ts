@@ -3,7 +3,7 @@ import eComHead from '../../img/projects/eComDetails.jpg';
 import PuzzleHead from '../../img/projects/PuzzleSolve.jpg';
 import skillSvgs from '../skills_section/skillsSvgs';
 
-const [html, css, js, ts, sass, git, react, rwd, webpack, babel] = skillSvgs.map(arr => arr[0]);
+const [html, css, js, ts, sass, react, rwd, webpack, babel] = skillSvgs.map(arr => arr[0]);
 
 const ProjectsData = {
     drinkify: {

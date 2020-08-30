@@ -10,8 +10,13 @@ const Navigation = styled.nav<NavigationType>`
     text-align: center;
     z-index: 3;
     background: #0B0C10;
-    display: ${({ visible }) => visible ? 'block' : 'none'};
-`;
+    transition: .4s ease-out clip-path;
+    clip-path: circle(${({ visible }) => visible ? '510px' : '0'} at 100% 0%);
+    @media (max-height: 470px) {
+        top: 1px;
+        right: 66px;
+    }
+    `;
 
 type NavigationType = {
     visible: boolean,

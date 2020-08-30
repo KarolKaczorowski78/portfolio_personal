@@ -6,7 +6,8 @@ interface StyledSectionProps {
 
 const SectionStyled = styled.section`
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     max-width: 100%;
     box-sizing: border-box;
     background: #1F2833;

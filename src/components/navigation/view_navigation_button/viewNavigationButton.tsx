@@ -14,7 +14,7 @@ const ViewNavigationButton = () => {
      }
 
     return (
-        <ViewNavButton onClick={ handleClick }>
+        <ViewNavButton onClick={ handleClick } navVisibility={ ctx ? ctx.navVisibility : false }>
             <span></span>
         </ViewNavButton>
     )

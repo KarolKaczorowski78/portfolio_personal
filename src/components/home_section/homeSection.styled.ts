@@ -6,12 +6,16 @@ const HomeSection = styled(Section)`
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    @media (min-width: 1200px) {
+        z-index: 3;
+    }
 `;
 
 export const Shit = styled.div<ShitProps>`
     max-width: 100%;
     position: relative;
-    height: 100vh;
+    height: auto;
+    min-height: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: flex-start;
@@ -21,14 +25,14 @@ export const Shit = styled.div<ShitProps>`
     color: white;
     font-family: "Comic Sans MS", cursive, sans-serif;
     box-sizing: border-box;
-    @media (max-width: 699px) {
+    @media (max-width: 749px) {
         width: 100vw;
         &:nth-of-type(2), &:nth-of-type(3) {
             display: none;
         }
     }
 
-    @media only screen and (min-width: 700px) and (max-width: 1199px) {
+    @media only screen and (min-width: 750px) and (max-width: 1199px) {
         width: 50vw;
         &:nth-of-type(3) {
             display: none;

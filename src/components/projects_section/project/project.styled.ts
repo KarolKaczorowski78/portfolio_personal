@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const Project = styled.div`
-    height: auto;
     position: relative;
     display: inline-block;
     height: 75vh;
     width: auto;    
     margin: 30px;
+    max-width: 95vw;
     box-sizing: border-box;
     border: 2px solid #66FCF1;
     & > img {
@@ -15,6 +15,15 @@ const Project = styled.div`
     }
     &:hover div {
         clip-path: circle(1000px at 50% 50%);
+    }
+    @media (max-width: 450px) {
+        width: 95%;
+        height: auto;
+        margin: 2.5%;
+        & > img {
+            width: 100%;
+            height: auto;
+        }
     }
 `;
 

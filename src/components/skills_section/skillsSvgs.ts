@@ -11,8 +11,8 @@ import babel from '../../svg/babel.svg';
 
 const svgs: string[][] = [
     [htmlIcon, 'HTML5'], [cssIcon, 'CSS3'], [jsIcon, 'JavaScript'], 
-    [tsIcon, "TypeScript"], [sassIcon, "SASS"], [gitIcon, "GIT"], 
-    [reactIcon, "ReactJS"], [rwd, "RWD"], [webpack, "Webpack"], [babel, "Babel"],
+    [tsIcon, "TypeScript"], [sassIcon, "SASS"], [reactIcon, "ReactJS"], 
+    [rwd, "RWD"], [webpack, "Webpack"], [babel, "Babel"], [gitIcon, "GIT"],
 ]
 
 export default svgs;

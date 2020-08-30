@@ -3,6 +3,7 @@ import About from './components/about_section/aboutSection';
 import Home from './components/home_section/homeSection';
 import Projects from './components/projects_section/projectsSection';
 import Skills from './components/skills_section/skillsSection';
+import Contact from './components/contact_section/contactSection';
 import Navigation from './components/navigation/navigation';
 import ViewNavButton from './components/navigation/view_navigation_button/viewNavigationButton';
 
@@ -26,6 +27,7 @@ const App = () => {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </mainContext.Provider>
     </>
   );
