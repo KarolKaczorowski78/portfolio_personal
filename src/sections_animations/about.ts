@@ -4,8 +4,8 @@ const aboutAnimation = () => {
     const aboutSection = document.querySelector('.about');
     const article = aboutSection?.querySelector('article');
     const imgC = aboutSection?.querySelector('img');
-    const tl = gsap.timeline();
-    gsap.defaults({ duration: .5, stagger: .25 });
+    const tl = gsap.timeline({ defaults: { duration: .6, stagger: .25 } });
+
 
     (article && imgC) && (() => {
         tl.to(Array.from(article.childNodes), { y: 0, autoAlpha: 1 })
