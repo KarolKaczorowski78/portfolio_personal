@@ -16,6 +16,8 @@ const ContactForm = styled.form`
         margin-top: 15px;
         display: inline-block;  
         width: 100%;
+        opacity: 0;
+        transform: translateY(30px);
         &:focus {
             box-shadow: 0 0 11px gold;
             box-shadow: 0 0 11px white;
@@ -29,7 +31,6 @@ const ContactForm = styled.form`
         height: auto;
         padding: 10px 12px;
         border-radius: 25%;
-        background: none;
         background: rgb(11, 25, 45);
     }
     @media (max-width: 510px) {

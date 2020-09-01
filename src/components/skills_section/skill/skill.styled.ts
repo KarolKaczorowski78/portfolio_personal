@@ -1,6 +1,4 @@
-import styled
-    , { keyframes, css, FlattenSimpleInterpolation } 
-    from 'styled-components';
+import styled, { keyframes, css, FlattenSimpleInterpolation } from 'styled-components';
 
 const keyframe = keyframes`
     0% {

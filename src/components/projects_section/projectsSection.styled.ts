@@ -10,5 +10,14 @@ const ProjectsSection = styled(Section)`
     }
 `;
 
+export const ProjectsSectionStyle = `
+    text-align: center;
+    padding-top: 20px;
+    @media(max-width: 800px) {
+        height: auto;
+        align-items: center;
+    } 
+`;
+
 
 export default ProjectsSection;

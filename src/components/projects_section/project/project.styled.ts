@@ -7,8 +7,11 @@ const Project = styled.div`
     width: auto;    
     margin: 30px;
     max-width: 95vw;
+    min-height: 350px;
     box-sizing: border-box;
     border: 2px solid #66FCF1;
+    opacity: 0;
+    transform: translateY(30px);
     & > img {
         height: 100%;
         width: auto;
@@ -39,11 +42,15 @@ export const ProjectDetails = styled.div`
     transition: 1s clip-path;
     box-sizing: border-box;
     text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
     & > h1 {
         font-size: 2rem;
         color: #66FCF1;
         font-family: Impact, Charcoal, sans-serif;
+        margin-bottom: 10% autol
     }
     & > p {
         margin: 0 auto;
@@ -55,8 +62,7 @@ export const ProjectDetails = styled.div`
             display: none;
         }
     }
-    & > img {
-        margin: 10% 0;
+    img {
         height: 50px;
         width: auto;
         @media (max-height: 550px) {

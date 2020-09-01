@@ -5,6 +5,7 @@ import Projects from './components/projects_section/projectsSection';
 import Skills from './components/skills_section/skillsSection';
 import Contact from './components/contact_section/contactSection';
 import Navigation from './components/navigation/navigation';
+import Footer from './components/footer/footer';
 import ViewNavButton from './components/navigation/view_navigation_button/viewNavigationButton';
 
 export const mainContext = createContext<MainContext | null>(null);
@@ -28,6 +29,7 @@ const App = () => {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
       </mainContext.Provider>
     </>
   );

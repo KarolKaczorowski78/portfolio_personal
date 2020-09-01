@@ -24,4 +24,17 @@ export const SkillsChartContainer = styled.div`
     flex-wrap: wrap;
 `;
 
+export const SkillSectionStyle = `
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+    & > span {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+`;
+
 export default SkillsSection;

@@ -1,17 +1,17 @@
 import styled from 'styled-components';
-import Section from '../section/section.styled';
 
-const HomeSection = styled(Section)`
+export const HomeSectionStyle = `
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    padding: 0;
     @media (min-width: 1200px) {
         z-index: 3;
     }
 `;
 
-export const Shit = styled.div<ShitProps>`
+export const SectionPiece = styled.div<ShitProps>`
     max-width: 100%;
     position: relative;
     height: auto;
@@ -25,6 +25,10 @@ export const Shit = styled.div<ShitProps>`
     color: white;
     font-family: "Comic Sans MS", cursive, sans-serif;
     box-sizing: border-box;
+    & > * {
+        opacity: 0;
+        transform: translateY(25px) translateX(25px);
+    }
     @media (max-width: 749px) {
         width: 100vw;
         &:nth-of-type(2), &:nth-of-type(3) {
@@ -43,21 +47,40 @@ export const Shit = styled.div<ShitProps>`
     }
 `;
 
-export const H1 = styled.span`
+export const H1 = styled.h1`
     color: #66FCF1;
     font-size: 4rem;
     font-family: Impact, Charcoal, sans-serif;
     display: block;
+    margin: 0;
 `;
 
-export const HomeNavButton = styled(H1)`
-    transition: .3s ease-out;
-    color: #0B0C10;
+// background-clip: text;
+// -webkit-text-fill-color: transparent;
+// transition: background-position 0.55s ease-in;
+// background-image: linear-gradient(
+//     to right,
+//     gold,
+//     gold 50%,
+//     #66FCF1 50%);
+//     background-size: 200% 100%;
+//     background-position: 100%;
+// &:hover {
+//     background-position: 0%;
+// }
+
+export const HomeNavButton = styled.span`
+    font-size: 4rem;
+    color: black;
     text-shadow: 0px 0px 2px #66FCF1;
+    font-family: Impact, Charcoal, sans-serif;
     &:hover {
         text-shadow: 0px 0px 5px #66FCF1;
         color: black;
         cursor: pointer;
+    }
+    ::before, ::after {
+        content: none;
     }
 `
 
@@ -89,4 +112,4 @@ type ShitProps = {
     backgroundOpacity: string,
 }
 
-export default HomeSection;
+export default HomeSectionStyle;
