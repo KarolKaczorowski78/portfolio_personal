@@ -1,12 +1,13 @@
 import gsap from 'gsap';
 import TextPlugin from 'gsap/TextPlugin';
+import capitalizeString from '../universal/universal_functions/capitalizeString';
 
 const homeAnimation = () => {
     const homeSection = document.querySelector('.home');
     const childDivs = homeSection?.getElementsByTagName('div');
 
     const writer = document.querySelector('.writer-content');
-    const writerWords = ['Consistency', 'Curiosity', 'Passion', 'Patience'];
+    const writerWords = ['consistency', 'curiosity', 'passion', 'patience'];
 
     gsap.registerPlugin(TextPlugin);
 
@@ -14,7 +15,7 @@ const homeAnimation = () => {
 
     writerWords.forEach(word => {
         const tl = gsap.timeline({ repeat: 1, yoyo: true, repeatDelay: .6 });
-        tl.to(writer, { duration: 1, text: word, delay: .3 });
+        tl.to(writer, { duration: 1, text: capitalizeString(word), delay: .3 });
         writerTl.add(tl);
     })
 

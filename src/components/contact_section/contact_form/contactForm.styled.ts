@@ -19,7 +19,6 @@ const ContactForm = styled.form`
         opacity: 0;
         transform: translateY(30px);
         &:focus {
-            box-shadow: 0 0 11px gold;
             box-shadow: 0 0 11px white;
         }
     }
@@ -32,6 +31,10 @@ const ContactForm = styled.form`
         padding: 10px 12px;
         border-radius: 25%;
         background: rgb(11, 25, 45);
+    }
+    .err {
+        transition: .1s;
+        background: red;
     }
     @media (max-width: 510px) {
         width: 90vw;
