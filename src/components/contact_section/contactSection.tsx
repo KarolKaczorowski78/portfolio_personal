@@ -13,7 +13,8 @@ const ContactSection = () => {
         <Section additionalStyle={ ContactSectionStyle } classNm={ SectionNames.CONTACT } animation={ contactAnimation }>
             <H1>CONTACT</H1>
             <ContactForm />
-            { Object.values(socialMediaData).map(({ icon, link }) => <ProjectLink icon={ icon } url={ link } />) }
+            { Object.values(socialMediaData).map(({ icon, link }, i) =>
+                <ProjectLink icon={ icon } url={ link } key={ i } />) }
         </Section>
     )
 }

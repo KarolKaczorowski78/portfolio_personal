@@ -16,10 +16,10 @@ const MainFeature = styled.div`
     & > svg {
         font-size: 40px;
     }
-    @media (max-width: 400px), (max-height: 400px) {
+    @media (max-width: 430px), (max-height: 400px) {
         width: 90px;
         height: 90px;
-        margin: 0 5px;
+        margin: 5px 5px;
         & > span {
             font-size: 12px;
         }

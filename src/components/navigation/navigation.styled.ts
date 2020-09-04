@@ -16,7 +16,10 @@ const Navigation = styled.nav<NavigationType>`
         top: 1px;
         right: 66px;
     }
-    `;
+    @media (max-height: 400px) {
+        height: 300px;
+    }
+`;
 
 type NavigationType = {
     visible: boolean,

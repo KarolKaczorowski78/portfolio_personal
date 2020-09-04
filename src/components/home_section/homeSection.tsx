@@ -23,8 +23,8 @@ const HomeSection = () => {
                 <Principle>TENACIOUS</Principle>
             </SectionPiece>
             <SectionPiece backgroundOpacity=".8">
-                { Object.values(SectionNames).slice(1).map(name => 
-                    <HomeNavButton onClick={ () => { scrollToElement(name) }}>
+                { Object.values(SectionNames).slice(1).map((name, i) => 
+                    <HomeNavButton key={ i } onClick={ () => { scrollToElement(name) }}>
                         { name.toUpperCase() }
                     </HomeNavButton>) }
             </SectionPiece>

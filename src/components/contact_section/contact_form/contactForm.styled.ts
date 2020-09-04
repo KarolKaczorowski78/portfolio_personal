@@ -6,7 +6,7 @@ const ContactForm = styled.form`
     margin: 20px auto;
     box-sizing: border-box;
     position: relative;
-    & > * {
+    & > *:not(div) {
         box-sizing: border-box;
         color: white;
         padding: 12px;

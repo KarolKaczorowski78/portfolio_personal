@@ -11,6 +11,7 @@ const Footer = styled.footer`
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    min-width: 400px;
 `;
 
 export default Footer;

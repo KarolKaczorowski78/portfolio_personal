@@ -55,6 +55,9 @@ const NavButton = styled.button<NavButtonProps>`
             }
         }
     }
+    @media (max-height: 400px) {
+        height: 60px;
+    }
 `;
 
 type NavButtonProps = {

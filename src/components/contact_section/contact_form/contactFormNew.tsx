@@ -3,6 +3,7 @@ import ContactFormStyled from './contactForm.styled';
 import sendEmail from '../../../universal/universal_functions/sendEmail';
 import isValidEmail from '../../../universal/universal_functions/isValidEmail';
 import showTextError from '../../../universal/universal_functions/showTextError';
+import SendingEmailInformator from './sending_email_informator/sendingEmailInformator';
 
 const ContactForm = () => {
 
@@ -10,6 +11,7 @@ const ContactForm = () => {
     const [email, setEmail] = useState<string>('');
     const [subject, setSubject] = useState<string>('');
     const [message, setMessage] = useState<string>('');
+    const [sendingResult, setSendingResult] = useState<string | false>(false);
     const propValues: string[] = [name, email, subject, message];
 
     const handleSubmit = (e: FormEvent) => {
@@ -19,7 +21,14 @@ const ContactForm = () => {
         e.preventDefault();
 
         (!propValues.includes('') && isEmail) ?
-             sendEmail(form) : handleSubmitErrors(isEmail, form);
+            (async () => {
+                setSendingResult(await sendEmail(form));
+
+                setName('');
+                setEmail('');
+                setSubject('');
+                setMessage('');
+            })() : handleSubmitErrors(isEmail, form);
     }
     
 
@@ -58,6 +67,7 @@ const ContactForm = () => {
                       rows={ 10 }>
             </textarea>
             <button type="submit">Send</button>
+            <SendingEmailInformator sendingResult={ sendingResult } />
         </ContactFormStyled>
     )
 }

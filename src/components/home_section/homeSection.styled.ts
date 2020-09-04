@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HomeSectionStyle = `
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
     position: relative;
     padding: 0;
@@ -31,6 +31,8 @@ export const SectionPiece = styled.div<ShitProps>`
     }
     @media (max-width: 749px) {
         width: 100vw;
+        max-width: 100%;
+        width: 100%;
         &:nth-of-type(2), &:nth-of-type(3) {
             display: none;
         }
@@ -55,20 +57,6 @@ export const H1 = styled.h1`
     margin: 0;
 `;
 
-// background-clip: text;
-// -webkit-text-fill-color: transparent;
-// transition: background-position 0.55s ease-in;
-// background-image: linear-gradient(
-//     to right,
-//     gold,
-//     gold 50%,
-//     #66FCF1 50%);
-//     background-size: 200% 100%;
-//     background-position: 100%;
-// &:hover {
-//     background-position: 0%;
-// }
-
 export const HomeNavButton = styled.span`
     font-size: 4rem;
     color: black;
@@ -88,6 +76,9 @@ export const Principle = styled(HomeNavButton)`
     pointer-events: none;
     &::first-letter {
         color: #66FCF1;
+    }
+    @media(max-height: 400px) {
+        font-size: 3rem;
     }
 `;
 

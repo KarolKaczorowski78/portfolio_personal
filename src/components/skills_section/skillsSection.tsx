@@ -12,8 +12,8 @@ const SkillsSection = () => {
         <Section additionalStyle={ SkillSectionStyle } classNm={ SectionNames.SKILLS }>
             <H1>SKILLS</H1>
                 <SkillsChartContainer>
-                    { svgs.map(([svg, description]) => 
-                    <Skill svg={ svg } description={ description } />) }
+                    { svgs.map(([svg, description], i) => 
+                    <Skill svg={ svg } description={ description } key={ i } />) }
                 </SkillsChartContainer>
         </Section>
     )

@@ -4,7 +4,7 @@ import FooterStyled from './footer.styled';
 const Footer = () => {
     return (
         <FooterStyled>
-            All rights reserved 2020 © | Karol Kaczorowski 
+            All rights reserved 2020 © | Karol Kaczorowski
         </FooterStyled>
     )
 }
