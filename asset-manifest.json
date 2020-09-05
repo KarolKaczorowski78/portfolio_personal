@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c78fd67.chunk.css",
+    "main.js": "/static/js/main.24b9506a.chunk.js",
+    "main.js.map": "/static/js/main.24b9506a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ace9268a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ace9268a.js.map",
+    "static/js/2.b24e28d9.chunk.js": "/static/js/2.b24e28d9.chunk.js",
+    "static/js/2.b24e28d9.chunk.js.map": "/static/js/2.b24e28d9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4fb4af51e404c6131bfb309f605c7edf.js": "/precache-manifest.4fb4af51e404c6131bfb309f605c7edf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9c78fd67.chunk.css.map": "/static/css/main.9c78fd67.chunk.css.map",
+    "static/js/2.b24e28d9.chunk.js.LICENSE.txt": "/static/js/2.b24e28d9.chunk.js.LICENSE.txt",
+    "static/media/DrinksMain.jpg": "/static/media/DrinksMain.a91141be.jpg",
+    "static/media/PuzzleSolve.jpg": "/static/media/PuzzleSolve.2217b116.jpg",
+    "static/media/about.jpg": "/static/media/about.93b136ff.jpg",
+    "static/media/babel.svg": "/static/media/babel.b6a25e4d.svg",
+    "static/media/css.svg": "/static/media/css.889449e3.svg",
+    "static/media/eComDetails.jpg": "/static/media/eComDetails.d196a697.jpg",
+    "static/media/git.svg": "/static/media/git.f6050941.svg",
+    "static/media/html.svg": "/static/media/html.5e025b38.svg",
+    "static/media/js.svg": "/static/media/js.ecf1aec9.svg",
+    "static/media/react.svg": "/static/media/react.1f6a76a4.svg",
+    "static/media/sass.svg": "/static/media/sass.cb160800.svg",
+    "static/media/ts.svg": "/static/media/ts.70e5b2e8.svg",
+    "static/media/webpack.svg": "/static/media/webpack.e4378edb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ace9268a.js",
+    "static/js/2.b24e28d9.chunk.js",
+    "static/css/main.9c78fd67.chunk.css",
+    "static/js/main.24b9506a.chunk.js"
+  ]
+}
