@@ -3,15 +3,19 @@ import styled from 'styled-components';
 const Footer = styled.footer`
     width: 100%;
     height: 100px;
-    background: blue;
     text-align: center;
-    vertical-align: middle;
-    line-height: 100px;
+    position: relative;
     background: rgb(11, 25, 35);
     color: white;
-    font-weight: bold;
     text-transform: uppercase;
-    min-width: 400px;
+    min-width: 350px;
+    & > span {
+        width: 90%;
+        left: 5%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 `;
 
 export default Footer;

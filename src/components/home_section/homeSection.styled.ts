@@ -4,7 +4,6 @@ export const HomeSectionStyle = `
     display: flex;
     justify-content: start;
     align-items: center;
-    position: relative;
     padding: 0;
     @media (min-width: 1200px) {
         z-index: 3;
@@ -30,22 +29,21 @@ export const SectionPiece = styled.div<ShitProps>`
         transform: translateY(25px) translateX(25px);
     }
     @media (max-width: 749px) {
-        width: 100vw;
-        max-width: 100%;
         width: 100%;
+        padding-left: 10px;
         &:nth-of-type(2), &:nth-of-type(3) {
             display: none;
         }
     }
 
     @media only screen and (min-width: 750px) and (max-width: 1199px) {
-        width: 50vw;
+        width: 50%;
         &:nth-of-type(3) {
             display: none;
         }
     }
     @media (min-width: 1200px) {
-        width: 33.3vw;
+        width: 33.3%;
     }
 `;
 

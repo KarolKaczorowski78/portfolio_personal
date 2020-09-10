@@ -17,7 +17,7 @@ const Skill = (props: { svg: string, description: string }) => {
         <SkillStyled ref={ ref } theme={ data.vibrant } wasShown={ wasShown }>
             <img src={ props.svg } alt="" style={{ opacity: wasShown ? 1 : 0 }} />        
             <SkillNameContainer>
-                { props.description }
+                <span>{ props.description }</span>
             </SkillNameContainer>
         </SkillStyled>
     )

@@ -26,12 +26,17 @@ const Skill = styled.div<SkillType>`
     color: ${({ theme }) => theme};
     margin: 30px;
     background: rgb(11, 12, 16);
+     * {
+        -webkit-tap-highlight-color: transparent;
+    }
     img, div {
         transition: .3s;
     }
     img {
         height: 90px;
         vertical-align: middle;
+        user-select: none;
+        -webkit-user-select: none;
     }
     ::before, ::after {
         position: absolute;
@@ -67,9 +72,15 @@ export const SkillNameContainer = styled.div`
     z-index: 2;
     opacity: 0;
     background: rgba(0, 0, 0, .8);
-    &:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover, &:active {
         cursor: pointer;
         opacity: 1;
+    }
+    & > span {
+        user-select: none;
     }
 `;
 

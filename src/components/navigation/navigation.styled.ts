@@ -12,6 +12,8 @@ const Navigation = styled.nav<NavigationType>`
     background: #0B0C10;
     transition: .4s ease-out clip-path;
     clip-path: circle(${({ visible }) => visible ? '510px' : '0'} at 100% 0%);
+    -webkit-clip-path: circle(${({ visible }) => visible ? '510px' : '0'} at 100% 0%);
+    -moz-clip-path: circle(${({ visible }) => visible ? '510px' : '0'} at 100% 0%);
     @media (max-height: 470px) {
         top: 1px;
         right: 66px;

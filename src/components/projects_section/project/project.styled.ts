@@ -15,6 +15,7 @@ const Project = styled.div`
     & > img {
         height: 100%;
         width: auto;
+        pointer-events: none;
     }
     &:hover div {
         clip-path: circle(1000px at 50% 50%);
@@ -26,6 +27,7 @@ const Project = styled.div`
         & > img {
             width: 100%;
             height: auto;
+            pointer-events: none;
         }
     }
 `;
@@ -68,6 +70,9 @@ export const ProjectDetails = styled.div`
         @media (max-height: 550px) {
             height: 35px;
         }
+    }
+    h1, p, img {
+        user-select: none;
     }
 `;
 
