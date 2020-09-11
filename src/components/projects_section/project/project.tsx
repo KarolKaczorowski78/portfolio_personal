@@ -20,7 +20,8 @@ const Project = (props: props) => {
             <img src={ props.image } alt=""/>
             <ProjectDetails>
                 <h1>{ props.name }</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>{ props.description }</p>
+                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                 <span>
                     { props.technologies.slice(0, 5).map((url, i) => 
                     <img key={ i } src={ url } alt="" />) }
@@ -38,6 +39,7 @@ const Project = (props: props) => {
 type props = {
     image: string,
     name: string,
+    description: string,
     links: string[],
     technologies: string[],
 }

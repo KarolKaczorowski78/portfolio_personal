@@ -14,8 +14,8 @@ const AboutSection = () => {
         <Section classNm={ SectionNames.ABOUT } additionalStyle={ AboutSectionStyle } animation={ aboutAnimation }>
             <Article>
                 <H1>ABOUT ME</H1>
-                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</P>
-                { mainFeatureIcons.map(({icon, name}, i) => 
+                    <P>I'm young man who is constantly looking for new challenges and opportunities for self development, I really enjoy investing free time in myself and I perform very well in tasks which I know will benefit me in the future. I'm passioned about modern technology, it's fascinating how fast and efficiently computer programs are able to finish given tasks. <span>I bind my future with programming and as time goes on I see myself as a full stack web developer.</span></P>
+                    { mainFeatureIcons.map(({icon, name}, i) => 
                     <MainFeature icon={ icon } name={ name } key={ i } />) }
             </Article>
             <ImageContainer>

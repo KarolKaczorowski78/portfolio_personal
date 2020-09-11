@@ -10,9 +10,9 @@ const ProjectsSection = () => {
     return (
         <Section additionalStyle={ ProjectsSectionStyle } classNm={ SectionNames.PROJECTS }>
             <H1>Projects</H1>
-            { Object.values(ProjectsImages).map(({ imgUrl, name, tech, links }, i) => 
+            { Object.values(ProjectsImages).map(({ imgUrl, name, description, tech, links }, i) => 
                 <Project name={ name } image={ imgUrl } technologies={ tech } 
-                    key={ i } links={ links } />) }
+                    key={ i } links={ links } description={ description } />) }
         </Section>
     )
 }

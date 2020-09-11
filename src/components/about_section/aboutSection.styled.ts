@@ -8,9 +8,9 @@ const AboutSectionStyle = `
 `;
 
 export const Article = styled.article`
-    text-align: left;
     z-index: 2;
     height: auto;
+    text-align: justify;
     @media (max-width: 800px) {
         height: auto;
         text-align: center;
