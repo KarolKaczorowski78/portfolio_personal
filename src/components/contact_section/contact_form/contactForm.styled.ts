@@ -30,7 +30,7 @@ const ContactForm = styled.form`
         height: auto;
         padding: 10px 12px;
         border-radius: 25%;
-        background: rgb(11, 25, 45);
+        background: rgb(11, 25, 40);
     }
     .err {
         transition: .1s;

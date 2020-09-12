@@ -4,7 +4,7 @@ import SectionNames from '../../universal/constants/sectionNames';
 import Section from '../section/section';
 import Skill from './skill/skill';
 import svgs from './skillsSvgs';
-import H1 from '../universal/header/h1';
+import H1 from '../universal/headling/h1';
 
 const SkillsSection = () => {
 

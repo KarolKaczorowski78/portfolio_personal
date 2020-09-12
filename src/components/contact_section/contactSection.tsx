@@ -4,7 +4,7 @@ import SectionNames from '../../universal/constants/sectionNames';
 import ContactForm from './contact_form/contactFormNew';
 import socialMediaData from './socialMediaLinkData';
 import ProjectLink from '../projects_section/project/projectLink';
-import H1 from '../universal/header/h1';
+import H1 from '../universal/headling/h1';
 import Section from '../section/section';
 import contactAnimation from '../../sections_animations/contact';
 

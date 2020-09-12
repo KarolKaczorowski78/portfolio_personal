@@ -9,7 +9,7 @@ const ProjectsData = {
     drinkify: {
         imgUrl: DrinksHead,
         name: 'Drinkery',
-        description: 'This app aims for people who are looking for new aromas and flavors. App has been created using free Cocktails DB which contains over 600 drinks, their ingredients, recipies and more.',
+        description: 'This app aims for people who are looking for new aromas and flavors. App has been created using free Cocktails Database which contains over 600 drinks, their ingredients, recipies and more.',
         tech: [ts, sass, react, rwd],
         links: ['https://github.com/KarolKaczorowski78/drinks_app', 'https://karolkaczorowski78.github.io/drinks_app/'],
     },
