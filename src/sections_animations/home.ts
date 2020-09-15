@@ -2,14 +2,14 @@ import gsap from 'gsap';
 import TextPlugin from 'gsap/TextPlugin';
 import capitalizeString from '../universal/universal_functions/capitalizeString';
 
+gsap.registerPlugin(TextPlugin);
+
 const homeAnimation = () => {
     const homeSection = document.querySelector('.home');
     const childDivs = homeSection?.getElementsByTagName('div');
 
     const writer = document.querySelector('.writer-content');
     const writerWords = ['consistency', 'curiosity', 'passion', 'patience'];
-
-    gsap.registerPlugin(TextPlugin);
 
     const writerTl = gsap.timeline({ repeat: -1 }).pause();
 
