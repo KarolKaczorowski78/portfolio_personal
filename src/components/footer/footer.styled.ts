@@ -9,12 +9,15 @@ const Footer = styled.footer`
     color: white;
     text-transform: uppercase;
     min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     & > span {
         width: 90%;
-        left: 5%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+    }
+    a {
+        color: #66FCF1;
     }
 `;
 

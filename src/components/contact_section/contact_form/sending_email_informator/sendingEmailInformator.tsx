@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
-const Sendingemailinformator = (props: { sendingResult: string | false }) => {
+const Sendingemailinformator = (props: { sendingResult: boolean }) => {
 
     const successStr = 'E-mail sent succesfuly!';
     const errorStr = 'An error occured while sending an e-mail'

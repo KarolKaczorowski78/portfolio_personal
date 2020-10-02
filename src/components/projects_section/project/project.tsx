@@ -21,7 +21,6 @@ const Project = (props: props) => {
             <ProjectDetails>
                 <h1>{ props.name }</h1>
                     <p>{ props.description }</p>
-                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                 <span>
                     { props.technologies.slice(0, 5).map((url, i) => 
                     <img key={ i } src={ url } alt="" />) }
@@ -29,7 +28,7 @@ const Project = (props: props) => {
                 <br/>
                 <span>
                     <ProjectLink icon={ faCode } url={ props.links[0] } />
-                    <ProjectLink icon={ faEye } url={ props.links[1] } />
+                    { props.links[1] && <ProjectLink icon={ faEye } url={ props.links[1] } /> }
                 </span>
             </ProjectDetails>
         </ProjectStyled>

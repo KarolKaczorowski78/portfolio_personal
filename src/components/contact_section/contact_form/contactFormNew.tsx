@@ -11,10 +11,10 @@ const ContactForm = () => {
     const [email, setEmail] = useState<string>('');
     const [subject, setSubject] = useState<string>('');
     const [message, setMessage] = useState<string>('');
-    const [sendingResult, setSendingResult] = useState<string | false>(false);
+    const [sendingResult, setSendingResult] = useState<boolean>(false);
     const propValues: string[] = [name, email, subject, message];
 
-    const handleSubmit = (e: FormEvent) => {
+    const handleSubmit = (e: FormEvent<Element>) => {
         const form = e.target as HTMLFormElement;
         const isEmail = isValidEmail(email);
 
@@ -22,7 +22,7 @@ const ContactForm = () => {
 
         (!propValues.includes('') && isEmail) ?
             (async () => {
-                setSendingResult(await sendEmail(form));
+                setSendingResult(await sendEmail(e));
 
                 setName('');
                 setEmail('');
