@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5200d180babd0a0a646c26411c80e642",
+    "revision": "58fbe0e9af6ab95feaeef2a5c9df8225",
     "url": "/portfolio_personal/index.html"
   },
   {
-    "revision": "287d0e1d27396581cfaa",
+    "revision": "e01640670a7b13386355",
     "url": "/portfolio_personal/static/css/main.6dff7120.chunk.css"
   },
   {
-    "revision": "c9263ad9ede7bada36fe",
-    "url": "/portfolio_personal/static/js/2.465921aa.chunk.js"
+    "revision": "924621b710e9bbc7ec15",
+    "url": "/portfolio_personal/static/js/2.41abe12d.chunk.js"
   },
   {
     "revision": "d668461d5db0cc796abe8fa898597524",
-    "url": "/portfolio_personal/static/js/2.465921aa.chunk.js.LICENSE.txt"
+    "url": "/portfolio_personal/static/js/2.41abe12d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "287d0e1d27396581cfaa",
-    "url": "/portfolio_personal/static/js/main.a0ddbef1.chunk.js"
+    "revision": "e01640670a7b13386355",
+    "url": "/portfolio_personal/static/js/main.b6ac858a.chunk.js"
   },
   {
     "revision": "fb1466fc83c15f7c30c2",
@@ -36,8 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_personal/static/media/about.93b136ff.jpg"
   },
   {
+    "revision": "64a3fd7590b5db223724cf2a893ed381",
+    "url": "/portfolio_personal/static/media/angular.64a3fd75.svg"
+  },
+  {
     "revision": "b6a25e4d66096edc4f12bc130c7466b4",
     "url": "/portfolio_personal/static/media/babel.b6a25e4d.svg"
+  },
+  {
+    "revision": "384d9e6efa74bd67c1a548bd0e9dbdae",
+    "url": "/portfolio_personal/static/media/cSharp.384d9e6e.svg"
   },
   {
     "revision": "889449e31190719bac49e10699663581",
@@ -56,12 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_personal/static/media/html.5e025b38.svg"
   },
   {
+    "revision": "26778b925d99fafee5dfba09fe1c2aab",
+    "url": "/portfolio_personal/static/media/itCompany.26778b92.jpg"
+  },
+  {
     "revision": "ecf1aec98b3724e4d65ebc65be05e107",
     "url": "/portfolio_personal/static/media/js.ecf1aec9.svg"
   },
   {
     "revision": "1f6a76a4bf66ee1d6bdeab1edc5e2b5c",
     "url": "/portfolio_personal/static/media/react.1f6a76a4.svg"
+  },
+  {
+    "revision": "43e595c98488c0c652369791e4f16170",
+    "url": "/portfolio_personal/static/media/redux.43e595c9.svg"
   },
   {
     "revision": "cb1608003ac33cc02f3793c85370a97d",
