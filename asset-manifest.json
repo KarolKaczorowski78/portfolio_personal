@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio_personal/static/css/main.6dff7120.chunk.css",
-    "main.js": "/portfolio_personal/static/js/main.a4cf0da5.chunk.js",
-    "main.js.map": "/portfolio_personal/static/js/main.a4cf0da5.chunk.js.map",
+    "main.js": "/portfolio_personal/static/js/main.5788b67d.chunk.js",
+    "main.js.map": "/portfolio_personal/static/js/main.5788b67d.chunk.js.map",
     "runtime-main.js": "/portfolio_personal/static/js/runtime-main.472cef1d.js",
     "runtime-main.js.map": "/portfolio_personal/static/js/runtime-main.472cef1d.js.map",
     "static/js/2.41abe12d.chunk.js": "/portfolio_personal/static/js/2.41abe12d.chunk.js",
     "static/js/2.41abe12d.chunk.js.map": "/portfolio_personal/static/js/2.41abe12d.chunk.js.map",
     "index.html": "/portfolio_personal/index.html",
-    "precache-manifest.aa5c4bd74246be07319a3aff185eb980.js": "/portfolio_personal/precache-manifest.aa5c4bd74246be07319a3aff185eb980.js",
+    "precache-manifest.f26e3b5eecc955a99b579dfe6b3f007c.js": "/portfolio_personal/precache-manifest.f26e3b5eecc955a99b579dfe6b3f007c.js",
     "service-worker.js": "/portfolio_personal/service-worker.js",
     "static/css/main.6dff7120.chunk.css.map": "/portfolio_personal/static/css/main.6dff7120.chunk.css.map",
     "static/js/2.41abe12d.chunk.js.LICENSE.txt": "/portfolio_personal/static/js/2.41abe12d.chunk.js.LICENSE.txt",
     "static/media/DrinksMain.jpg": "/portfolio_personal/static/media/DrinksMain.25bc90a2.jpg",
     "static/media/PuzzleSolve.jpg": "/portfolio_personal/static/media/PuzzleSolve.2217b116.jpg",
     "static/media/about.jpg": "/portfolio_personal/static/media/about.93b136ff.jpg",
-    "static/media/angular.svg": "/portfolio_personal/static/media/angular.64a3fd75.svg",
     "static/media/babel.svg": "/portfolio_personal/static/media/babel.b6a25e4d.svg",
     "static/media/cSharp.svg": "/portfolio_personal/static/media/cSharp.384d9e6e.svg",
     "static/media/css.svg": "/portfolio_personal/static/media/css.889449e3.svg",
@@ -27,6 +26,7 @@
     "static/media/react.svg": "/portfolio_personal/static/media/react.1f6a76a4.svg",
     "static/media/redux.svg": "/portfolio_personal/static/media/redux.43e595c9.svg",
     "static/media/sass.svg": "/portfolio_personal/static/media/sass.cb160800.svg",
+    "static/media/sql.svg": "/portfolio_personal/static/media/sql.7dee1639.svg",
     "static/media/ts.svg": "/portfolio_personal/static/media/ts.70e5b2e8.svg",
     "static/media/webpack.svg": "/portfolio_personal/static/media/webpack.e4378edb.svg"
   },
@@ -34,6 +34,6 @@
     "static/js/runtime-main.472cef1d.js",
     "static/js/2.41abe12d.chunk.js",
     "static/css/main.6dff7120.chunk.css",
-    "static/js/main.a4cf0da5.chunk.js"
+    "static/js/main.5788b67d.chunk.js"
   ]
 }
