@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio_personal/static/css/main.6dff7120.chunk.css",
-    "main.js": "/portfolio_personal/static/js/main.29ed9c90.chunk.js",
-    "main.js.map": "/portfolio_personal/static/js/main.29ed9c90.chunk.js.map",
+    "main.js": "/portfolio_personal/static/js/main.6065aa25.chunk.js",
+    "main.js.map": "/portfolio_personal/static/js/main.6065aa25.chunk.js.map",
     "runtime-main.js": "/portfolio_personal/static/js/runtime-main.472cef1d.js",
     "runtime-main.js.map": "/portfolio_personal/static/js/runtime-main.472cef1d.js.map",
-    "static/js/2.9f12118e.chunk.js": "/portfolio_personal/static/js/2.9f12118e.chunk.js",
-    "static/js/2.9f12118e.chunk.js.map": "/portfolio_personal/static/js/2.9f12118e.chunk.js.map",
+    "static/js/2.f7f0b014.chunk.js": "/portfolio_personal/static/js/2.f7f0b014.chunk.js",
+    "static/js/2.f7f0b014.chunk.js.map": "/portfolio_personal/static/js/2.f7f0b014.chunk.js.map",
     "index.html": "/portfolio_personal/index.html",
-    "precache-manifest.4220e105c4198efdfae830c829e09697.js": "/portfolio_personal/precache-manifest.4220e105c4198efdfae830c829e09697.js",
+    "precache-manifest.7a5397a4d1e338f59cb570ef87dd1bb5.js": "/portfolio_personal/precache-manifest.7a5397a4d1e338f59cb570ef87dd1bb5.js",
     "service-worker.js": "/portfolio_personal/service-worker.js",
     "static/css/main.6dff7120.chunk.css.map": "/portfolio_personal/static/css/main.6dff7120.chunk.css.map",
-    "static/js/2.9f12118e.chunk.js.LICENSE.txt": "/portfolio_personal/static/js/2.9f12118e.chunk.js.LICENSE.txt",
+    "static/js/2.f7f0b014.chunk.js.LICENSE.txt": "/portfolio_personal/static/js/2.f7f0b014.chunk.js.LICENSE.txt",
     "static/media/DrinksMain.jpg": "/portfolio_personal/static/media/DrinksMain.25bc90a2.jpg",
     "static/media/PuzzleSolve.jpg": "/portfolio_personal/static/media/PuzzleSolve.2217b116.jpg",
     "static/media/about.jpg": "/portfolio_personal/static/media/about.93b136ff.jpg",
     "static/media/babel.svg": "/portfolio_personal/static/media/babel.b6a25e4d.svg",
+    "static/media/bazarekImg.png": "/portfolio_personal/static/media/bazarekImg.7262f5be.png",
     "static/media/cSharp.svg": "/portfolio_personal/static/media/cSharp.384d9e6e.svg",
     "static/media/css.svg": "/portfolio_personal/static/media/css.889449e3.svg",
     "static/media/eComDetails.jpg": "/portfolio_personal/static/media/eComDetails.d196a697.jpg",
@@ -35,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.472cef1d.js",
-    "static/js/2.9f12118e.chunk.js",
+    "static/js/2.f7f0b014.chunk.js",
     "static/css/main.6dff7120.chunk.css",
-    "static/js/main.29ed9c90.chunk.js"
+    "static/js/main.6065aa25.chunk.js"
   ]
 }
