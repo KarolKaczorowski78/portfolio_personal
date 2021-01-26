@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio_personal/static/css/main.6dff7120.chunk.css",
-    "main.js": "/portfolio_personal/static/js/main.329dab28.chunk.js",
-    "main.js.map": "/portfolio_personal/static/js/main.329dab28.chunk.js.map",
+    "main.js": "/portfolio_personal/static/js/main.3db07207.chunk.js",
+    "main.js.map": "/portfolio_personal/static/js/main.3db07207.chunk.js.map",
     "runtime-main.js": "/portfolio_personal/static/js/runtime-main.472cef1d.js",
     "runtime-main.js.map": "/portfolio_personal/static/js/runtime-main.472cef1d.js.map",
     "static/js/2.e33a17f4.chunk.js": "/portfolio_personal/static/js/2.e33a17f4.chunk.js",
     "static/js/2.e33a17f4.chunk.js.map": "/portfolio_personal/static/js/2.e33a17f4.chunk.js.map",
     "index.html": "/portfolio_personal/index.html",
-    "precache-manifest.d1c1a86e04cee8e4b1e51ced9ad76c90.js": "/portfolio_personal/precache-manifest.d1c1a86e04cee8e4b1e51ced9ad76c90.js",
+    "precache-manifest.5d938139664f50ecea65905ebd2bcf25.js": "/portfolio_personal/precache-manifest.5d938139664f50ecea65905ebd2bcf25.js",
     "service-worker.js": "/portfolio_personal/service-worker.js",
     "static/css/main.6dff7120.chunk.css.map": "/portfolio_personal/static/css/main.6dff7120.chunk.css.map",
     "static/js/2.e33a17f4.chunk.js.LICENSE.txt": "/portfolio_personal/static/js/2.e33a17f4.chunk.js.LICENSE.txt",
@@ -17,10 +17,10 @@
     "static/media/about.jpg": "/portfolio_personal/static/media/about.93b136ff.jpg",
     "static/media/babel.svg": "/portfolio_personal/static/media/babel.b6a25e4d.svg",
     "static/media/bazarekImg.png": "/portfolio_personal/static/media/bazarekImg.7262f5be.png",
-    "static/media/cSharp.svg": "/portfolio_personal/static/media/cSharp.384d9e6e.svg",
     "static/media/css.svg": "/portfolio_personal/static/media/css.889449e3.svg",
     "static/media/eComDetails.jpg": "/portfolio_personal/static/media/eComDetails.d196a697.jpg",
     "static/media/git.svg": "/portfolio_personal/static/media/git.f6050941.svg",
+    "static/media/golang.svg": "/portfolio_personal/static/media/golang.8d6f2b20.svg",
     "static/media/html.svg": "/portfolio_personal/static/media/html.5e025b38.svg",
     "static/media/itCompany.jpg": "/portfolio_personal/static/media/itCompany.26778b92.jpg",
     "static/media/js.svg": "/portfolio_personal/static/media/js.ecf1aec9.svg",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.472cef1d.js",
     "static/js/2.e33a17f4.chunk.js",
     "static/css/main.6dff7120.chunk.css",
-    "static/js/main.329dab28.chunk.js"
+    "static/js/main.3db07207.chunk.js"
   ]
 }
